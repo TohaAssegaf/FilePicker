@@ -10,7 +10,8 @@ import android.os.Bundle;
 import android.app.ListActivity;
 import android.content.Intent; 
 import android.view.View;
-import android.widget.ListView; 
+import android.widget.ListView;
+import android.widget.Toast;
 
 public class FileChooser extends ListActivity {
 
@@ -84,7 +85,7 @@ public class FileChooser extends ListActivity {
 	}
     private void onFileClick(Item o)
     {
-    	//Toast.makeText(this, "Folder Clicked: "+ currentDir, Toast.LENGTH_SHORT).show();
+    	Toast.makeText(this, "Folder Clicked: "+ currentDir, Toast.LENGTH_SHORT).show();
     	Intent intent = new Intent();
         intent.putExtra("GetPath",currentDir.toString());
         intent.putExtra("GetFileName",o.getName());
