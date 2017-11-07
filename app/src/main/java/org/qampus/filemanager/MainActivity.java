@@ -1,4 +1,4 @@
-package com.example.fileexplorer;
+package org.qampus.filemanager;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
 
-public class FileexplorerActivity extends Activity {
+public class MainActivity extends Activity {
 
     private static final int REQUEST_PATH = 1;
 
@@ -17,7 +17,7 @@ public class FileexplorerActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fileexplorer);
+        setContentView(R.layout.activity_main);
         edittext = (EditText) findViewById(R.id.editText);
     }
 

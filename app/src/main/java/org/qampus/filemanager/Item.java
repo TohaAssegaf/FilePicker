@@ -1,4 +1,4 @@
-package com.example.fileexplorer;
+package org.qampus.filemanager;
 
 public class Item implements Comparable<Item> {
     private String name;

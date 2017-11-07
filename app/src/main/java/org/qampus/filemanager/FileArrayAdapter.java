@@ -1,4 +1,4 @@
-package com.example.fileexplorer;
+package org.qampus.filemanager;
 
 import java.util.List;
 
