@@ -49,7 +49,6 @@ public class FileChooser extends ListActivity {
                     if (buf == 0) num_item = num_item + " item";
                     else num_item = num_item + " items";
 
-                    //String formated = lastModDate.toString();
                     dir.add(new Item(ff.getName(), num_item, date_modify, ff.getAbsolutePath(), "directory_icon"));
                 } else {
 
@@ -70,7 +69,6 @@ public class FileChooser extends ListActivity {
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
-        // TODO Auto-generated method stub
         super.onListItemClick(l, v, position, id);
         Item o = adapter.getItem(position);
         if (o.getImage().equalsIgnoreCase("directory_icon") || o.getImage().equalsIgnoreCase("directory_up")) {
@@ -82,11 +80,14 @@ public class FileChooser extends ListActivity {
     }
 
     private void onFileClick(Item o) {
-        Toast.makeText(this, "Folder Clicked: " + currentDir + "/" + o.getName(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Video Dir: " + currentDir + "/" + o.getName(), Toast.LENGTH_SHORT).show();
         Intent intent = new Intent();
         intent.putExtra("GetPath", currentDir.toString());
         intent.putExtra("GetFileName", o.getName());
         setResult(RESULT_OK, intent);
         finish();
+        Intent surga = new Intent(getApplicationContext(), VideoActivity.class);
+        surga.putExtra("EXTRA_JOS", currentDir + "/" + o.getName());
+        startActivity(surga);
     }
 }

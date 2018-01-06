@@ -26,9 +26,7 @@ public class MainActivity extends Activity {
         startActivityForResult(intent1, REQUEST_PATH);
     }
 
-    // Listen for results.
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        // See which child activity is calling us back.
         if (requestCode == REQUEST_PATH) {
             if (resultCode == RESULT_OK) {
                 curFileName = data.getStringExtra("GetFileName");

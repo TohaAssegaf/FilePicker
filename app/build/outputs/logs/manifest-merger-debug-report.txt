@@ -1,73 +1,96 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:1:1-33:12
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:2:5-37
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:4:5-81
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:4:22-78
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:7:5-31:19
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:9:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sansob/.android/build-cache/a911b21856abffe2019a20b83e0f350f0851ab4e/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:11:9-41
 	android:icon
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:8:9-42
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:10:9-42
 	android:theme
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:12:9-40
 activity#org.qampus.filemanager.MainActivity
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:11:9-20:20
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:13:9-24:20
 	android:label
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:13:13-64
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:15:13-64
 	android:theme
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:14:13-60
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:16:13-60
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:12:13-41
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:14:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:21:27-74
 activity#org.qampus.filemanager.FileChooser
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:22:9-29:20
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:25:9-32:20
 	android:label
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:24:13-40
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:27:13-40
 	android:theme
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:25:13-60
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:28:13-60
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:23:13-40
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:26:13-40
 action#org.qampus.filemanager.FileChooser
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:26:13-73
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:29:13-73
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:26:21-70
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:29:21-70
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:28:13-72
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:31:13-72
 	android:name
-		ADDED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml:28:23-69
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:31:23-69
+activity#org.qampus.filemanager.VideoActivity
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:33:9-37:20
+	android:screenOrientation
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:35:13-50
+	android:name
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:34:13-42
 uses-sdk
-INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sansob/.android/build-cache/a911b21856abffe2019a20b83e0f350f0851ab4e/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/sansob/.android/build-cache/d66b63b4f3f4447ea5014cf294b2361e4e91687e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/sansob/.android/build-cache/cdc5d78ad8864395283780188eabc993cf1a68da/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/sansob/.android/build-cache/c08f1f1eeb287e6dc265a1b2f6b90c28e24cd505/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /Users/sansob/.android/build-cache/d6352310d5f2cd3bc279e8732311be0b66fb58d6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/sansob/.android/build-cache/f1da32adcdf31f223bc0070a7c0eec093061cd7d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/sansob/.android/build-cache/bfe50a1d7b0609d07e547f358acba2e006e9e5bd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/sansob/.android/build-cache/12adb51afd61069695f149d457bb6ce4d3667dfb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/sansob/.android/build-cache/2dc3fd3c96277e1573f44b1b3e01d4b0026b1b34/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/sansob/.android/build-cache/4a92585859cd6d19c3fb02e9a8d1f49c397f2399/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/sansob/.android/build-cache/589a6a5fd1e17fe399412740852d88621f436c4d/output/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/sansob/.android/build-cache/12f7571e05c212285c1e3a95b701de10033f0511/output/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sansob\Documents\AndroidProject\FilePicker\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
