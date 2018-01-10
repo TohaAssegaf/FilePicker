@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifes
 	android:name
 		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:9:5-38:19
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:9:5-40:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sansob/.android/build-cache/a911b21856abffe2019a20b83e0f350f0851ab4e/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:11:9-41
@@ -69,9 +69,13 @@ ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifes
 	android:name
 		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:31:23-69
 activity#org.qampus.filemanager.VideoActivity
-ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:33:9-37:20
+ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:33:9-39:20
 	android:screenOrientation
-		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:35:13-50
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:37:13-50
+	android:launchMode
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:36:13-43
+	android:theme
+		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:35:13-52
 	android:name
 		ADDED from /Users/sansob/Documents/Mobile/FilePicker/app/src/main/AndroidManifest.xml:34:13-42
 uses-sdk

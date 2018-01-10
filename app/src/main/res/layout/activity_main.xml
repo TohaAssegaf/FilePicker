@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Get File Name From SDCard"
+        android:text="Get Video from SDCard"
         android:textSize="18dp" />
 
     <RelativeLayout
@@ -27,8 +27,8 @@
             android:layout_marginTop="15dp"
             android:layout_toLeftOf="@+id/skipButton"
             android:ems="10"
-            android:hint="EditText"
-            android:inputType="textPersonName"></EditText>
+            android:hint="Browse Video..."
+            android:inputType="textPersonName"/>
 
         <Button
             android:id="@+id/skipButton"
@@ -37,7 +37,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginTop="10dp"
             android:onClick="getfile"
-            android:text="Browser"
-            android:textSize="18dp"></Button>
+            android:text="Browse"
+            android:textSize="18dp"/>
     </RelativeLayout>
 </LinearLayout>

@@ -17,7 +17,7 @@ public class VideoActivity extends Activity {
         Uri uri = Uri.parse(surgas);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
-        getActionBar().hide();
+        //getActionBar().hide();
 
         if(surgas == null){
             Toast.makeText(this, "VIDEO TIDAK VALID" + surgas, Toast.LENGTH_SHORT).show();

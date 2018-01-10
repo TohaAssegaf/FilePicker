@@ -32,6 +32,8 @@
         </activity>
         <activity
             android:name=".VideoActivity"
+            android:theme="@style/AppTheme.NoTitle"
+            android:launchMode="singleTop"
             android:screenOrientation="landscape">
 
         </activity>
